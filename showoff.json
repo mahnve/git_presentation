@@ -2,6 +2,8 @@
 "sections":[
   {"section":"title"},
   {"section":"about_me"},
-  {"section":"history"}
+  {"section":"history"},
+  {"section":"roundup"},
+  {"section":"thanks"}
   ]
 }

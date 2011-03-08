@@ -7,3 +7,9 @@
 # Now #
 
 ![now](now.png)
+
+!SLIDE center
+#Projects Using Git#
+
+![Projects using git](projects_using_git.png)
+
