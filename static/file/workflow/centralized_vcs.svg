@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1024px"
+   height="768px"
+   id="svg2816"
+   version="1.1"
+   inkscape:version="0.46+devel r22636 custom"
+   sodipodi:docname="centralized_vcs.svg">
+  <defs
+     id="defs2818">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 384 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="1024 : 384 : 1"
+       inkscape:persp3d-origin="512 : 256 : 1"
+       id="perspective2824" />
+    <inkscape:perspective
+       id="perspective2843"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective2843-6"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective2895"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective2895-5"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective2895-0"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective2963"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1"
+     inkscape:cx="511.75959"
+     inkscape:cy="385.86746"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="px"
+     showgrid="true"
+     inkscape:window-width="1440"
+     inkscape:window-height="900"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:snap-smooth-nodes="true">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2826"
+       empspacing="5"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata2821">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer">
+    <rect
+       style="fill:#ff5555;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       id="rect2813"
+       width="290"
+       height="150"
+       x="367"
+       y="180"
+       rx="3.1969113" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Mentone;-inkscape-font-specification:Mentone"
+       x="51.180813"
+       y="78"
+       id="text2815"><tspan
+         sodipodi:role="line"
+         id="tspan2817"
+         x="51.180813"
+         y="78"
+         style="font-size:56px">Centralized Version Control System</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Mentone;-inkscape-font-specification:Mentone"
+       x="536.25"
+       y="240"
+       id="text2819"><tspan
+         sodipodi:role="line"
+         id="tspan2821"
+         x="536.25"
+         y="240"
+         style="text-align:center;text-anchor:middle;fill:#ffffff">Master</tspan><tspan
+         sodipodi:role="line"
+         x="536.25"
+         y="290"
+         id="tspan2823"
+         style="text-align:center;text-anchor:middle;fill:#ffffff">Repository</tspan></text>
+    <g
+       id="g2955"
+       transform="translate(-40.286405,-8)">
+      <g
+         id="g2881">
+        <rect
+           style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           id="rect2827"
+           width="180"
+           height="100"
+           x="100"
+           y="478"
+           rx="3.1969113" />
+        <rect
+           style="fill:#70e400;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           id="rect2829"
+           width="190"
+           height="120"
+           x="95"
+           y="468"
+           rx="3.1969113" />
+        <text
+           xml:space="preserve"
+           style="font-size:40px;font-style:normal;font-weight:normal;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Mentone;-inkscape-font-specification:Mentone"
+           x="135.42719"
+           y="538"
+           id="text2831"><tspan
+             sodipodi:role="line"
+             id="tspan2833"
+             x="135.42719"
+             y="538">Client</tspan></text>
+      </g>
+      <g
+         id="g2881-4"
+         transform="translate(241.52429,0)">
+        <rect
+           style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           id="rect2827-8"
+           width="180"
+           height="100"
+           x="100"
+           y="478"
+           rx="3.1969113" />
+        <rect
+           style="fill:#70e400;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           id="rect2829-4"
+           width="190"
+           height="120"
+           x="95"
+           y="468"
+           rx="3.1969113" />
+        <text
+           xml:space="preserve"
+           style="font-size:40px;font-style:normal;font-weight:normal;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Mentone;-inkscape-font-specification:Mentone"
+           x="135.42719"
+           y="538"
+           id="text2831-8"><tspan
+             sodipodi:role="line"
+             id="tspan2833-1"
+             x="135.42719"
+             y="538">Client</tspan></text>
+      </g>
+      <g
+         id="g2881-2"
+         transform="translate(483.04858,0)">
+        <rect
+           style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           id="rect2827-1"
+           width="180"
+           height="100"
+           x="100"
+           y="478"
+           rx="3.1969113" />
+        <rect
+           style="fill:#70e400;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           id="rect2829-9"
+           width="190"
+           height="120"
+           x="95"
+           y="468"
+           rx="3.1969113" />
+        <text
+           xml:space="preserve"
+           style="font-size:40px;font-style:normal;font-weight:normal;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Mentone;-inkscape-font-specification:Mentone"
+           x="135.42719"
+           y="538"
+           id="text2831-9"><tspan
+             sodipodi:role="line"
+             id="tspan2833-6"
+             x="135.42719"
+             y="538">Client</tspan></text>
+      </g>
+      <g
+         id="g2881-6"
+         transform="translate(724.57281,-10)">
+        <rect
+           style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           id="rect2827-4"
+           width="180"
+           height="100"
+           x="100"
+           y="478"
+           rx="3.1969113" />
+        <rect
+           style="fill:#70e400;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           id="rect2829-99"
+           width="190"
+           height="120"
+           x="95"
+           y="468"
+           rx="3.1969113" />
+        <text
+           xml:space="preserve"
+           style="font-size:40px;font-style:normal;font-weight:normal;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Mentone;-inkscape-font-specification:Mentone"
+           x="135.42719"
+           y="538"
+           id="text2831-0"><tspan
+             sodipodi:role="line"
+             id="tspan2833-8"
+             x="135.42719"
+             y="538">Client</tspan></text>
+      </g>
+    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="M 150,460 C 510,330 510,330 510,330"
+       id="path2977" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="M 390,460 C 510,330 510,330 510,330"
+       id="path2979" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="M 630,460 C 510,330 510,330 510,330"
+       id="path2981" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="M 870,450 C 510,330 510,330 510,330"
+       id="path2983" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Mentone;-inkscape-font-specification:Mentone"
+       x="160"
+       y="650"
+       id="text3757"><tspan
+         sodipodi:role="line"
+         id="tspan3759"
+         x="160"
+         y="650">Clients has one version and own changes</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Mentone;-inkscape-font-specification:Mentone"
+       x="340"
+       y="150"
+       id="text3761"><tspan
+         sodipodi:role="line"
+         id="tspan3763"
+         x="340"
+         y="150">Server has all history</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Mentone;-inkscape-font-specification:Mentone"
+       x="690"
+       y="218"
+       id="text2949"><tspan
+         sodipodi:role="line"
+         x="690"
+         y="218"
+         id="tspan2953"
+         style="font-size:28">Small commits </tspan><tspan
+         sodipodi:role="line"
+         x="690"
+         y="268"
+         id="tspan2985"
+         style="font-size:28">in IDE</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Mentone;-inkscape-font-specification:Mentone"
+       x="60"
+       y="198"
+       id="text2949-1"><tspan
+         sodipodi:role="line"
+         id="tspan2951-0"
+         x="60"
+         y="198"
+         style="font-size:28px">Branching - </tspan><tspan
+         sodipodi:role="line"
+         x="60"
+         y="233"
+         id="tspan2953-5"
+         style="font-size:28px">big and dangerous</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Mentone;-inkscape-font-specification:Mentone"
+       x="100"
+       y="308"
+       id="text2987"><tspan
+         sodipodi:role="line"
+         id="tspan2989"
+         x="100"
+         y="308"
+         style="font-size:28px">Surprisingly bad </tspan><tspan
+         sodipodi:role="line"
+         x="100"
+         y="343"
+         id="tspan2991"
+         style="font-size:28px">at merging</tspan></text>
+  </g>
+</svg>

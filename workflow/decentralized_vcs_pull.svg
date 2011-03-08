@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1024px"
+   height="768px"
+   id="svg2816"
+   version="1.1"
+   inkscape:version="0.46+devel r22636 custom"
+   sodipodi:docname="decentralized_vcs_pull.svg">
+  <defs
+     id="defs2818">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 384 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="1024 : 384 : 1"
+       inkscape:persp3d-origin="512 : 256 : 1"
+       id="perspective2824" />
+    <inkscape:perspective
+       id="perspective2843"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective2843-6"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective2895"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective2895-5"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective2895-0"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3850"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3850-4"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3850-1"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3925"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective2881"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective2926"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1"
+     inkscape:cx="518.56655"
+     inkscape:cy="391.59307"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="px"
+     showgrid="true"
+     inkscape:window-width="1436"
+     inkscape:window-height="880"
+     inkscape:window-x="0"
+     inkscape:window-y="16"
+     inkscape:window-maximized="0"
+     inkscape:snap-smooth-nodes="true">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2826"
+       empspacing="5"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata2821">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer">
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Mentone;-inkscape-font-specification:Mentone"
+       x="17.580376"
+       y="78"
+       id="text2815"><tspan
+         sodipodi:role="line"
+         id="tspan2817"
+         x="17.580376"
+         y="78"
+         style="font-size:56px">Decentralized Version Control System</tspan></text>
+    <g
+       id="g3835"
+       transform="translate(20,-80)">
+      <g
+         transform="translate(-50.572815,30)"
+         id="g2955">
+        <rect
+           style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           id="rect2827"
+           width="180"
+           height="100"
+           x="90.286407"
+           y="478"
+           rx="3.1969113" />
+        <rect
+           style="fill:#ff5555;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           id="rect2829"
+           width="215.28641"
+           height="120"
+           x="85.286407"
+           y="468"
+           rx="3.6223767" />
+        <text
+           xml:space="preserve"
+           style="font-size:40px;font-style:normal;font-weight:normal;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Mentone;-inkscape-font-specification:Mentone"
+           x="90.572815"
+           y="538"
+           id="text2831"><tspan
+             id="tspan3831"
+             sodipodi:role="line"
+             x="90.572815"
+             y="538">Repository</tspan></text>
+      </g>
+    </g>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3807"
+       style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:Mentone;font-style:normal;font-weight:normal;font-size:40px;-inkscape-font-specification:Mentone"><flowRegion
+         id="flowRegion3809"><rect
+           id="rect3811"
+           width="51"
+           height="100"
+           x="256"
+           y="203" /></flowRegion><flowPara
+         id="flowPara3813" /></flowRoot>    <g
+       transform="translate(380.28641,90)"
+       id="g3835-9">
+      <g
+         transform="translate(-50.572815,30)"
+         id="g2955-7">
+        <rect
+           style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           id="rect2827-6"
+           width="180"
+           height="100"
+           x="90.286407"
+           y="478"
+           rx="3.1969113" />
+        <rect
+           style="fill:#ff5555;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           id="rect2829-6"
+           width="215.28641"
+           height="120"
+           x="85.286407"
+           y="468"
+           rx="3.6223767" />
+        <text
+           xml:space="preserve"
+           style="font-size:40px;font-style:normal;font-weight:normal;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Mentone;-inkscape-font-specification:Mentone"
+           x="90.572815"
+           y="538"
+           id="text2831-8"><tspan
+             id="tspan3831-1"
+             sodipodi:role="line"
+             x="90.572815"
+             y="538">Repository</tspan></text>
+      </g>
+    </g>
+    <g
+       transform="translate(680,-90)"
+       id="g3835-6">
+      <g
+         transform="translate(-50.572815,30)"
+         id="g2955-2">
+        <rect
+           style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           id="rect2827-7"
+           width="180"
+           height="100"
+           x="90.286407"
+           y="478"
+           rx="3.1969113" />
+        <rect
+           style="fill:#ff5555;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           id="rect2829-67"
+           width="215.28641"
+           height="120"
+           x="85.286407"
+           y="468"
+           rx="3.6223767" />
+        <text
+           xml:space="preserve"
+           style="font-size:40px;font-style:normal;font-weight:normal;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Mentone;-inkscape-font-specification:Mentone"
+           x="90.572815"
+           y="538"
+           id="text2831-1"><tspan
+             id="tspan3831-7"
+             sodipodi:role="line"
+             x="90.572815"
+             y="538">Repository</tspan></text>
+      </g>
+    </g>
+    <g
+       transform="translate(610.28641,-350)"
+       id="g3835-8">
+      <g
+         transform="translate(-50.572815,30)"
+         id="g2955-6">
+        <rect
+           style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           id="rect2827-8"
+           width="180"
+           height="100"
+           x="90.286407"
+           y="478"
+           rx="3.1969113" />
+        <rect
+           style="fill:#ff5555;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           id="rect2829-0"
+           width="215.28641"
+           height="120"
+           x="85.286407"
+           y="468"
+           rx="3.6223767" />
+        <text
+           xml:space="preserve"
+           style="font-size:40px;font-style:normal;font-weight:normal;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Mentone;-inkscape-font-specification:Mentone"
+           x="90.572815"
+           y="538"
+           id="text2831-7"><tspan
+             id="tspan3831-8"
+             sodipodi:role="line"
+             x="90.572815"
+             y="538">Repository</tspan></text>
+      </g>
+    </g>
+    <g
+       transform="translate(130.28641,-340)"
+       id="g3835-6-1">
+      <g
+         transform="translate(-50.572815,30)"
+         id="g2955-2-0">
+        <rect
+           style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           id="rect2827-7-3"
+           width="180"
+           height="100"
+           x="90.286407"
+           y="478"
+           rx="3.1969113" />
+        <rect
+           style="fill:#ff5555;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           id="rect2829-67-4"
+           width="215.28641"
+           height="120"
+           x="85.286407"
+           y="468"
+           rx="3.6223767" />
+        <text
+           xml:space="preserve"
+           style="font-size:40px;font-style:normal;font-weight:normal;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Mentone;-inkscape-font-specification:Mentone"
+           x="90.572815"
+           y="538"
+           id="text2831-1-0"><tspan
+             id="tspan3831-7-4"
+             sodipodi:role="line"
+             x="90.572815"
+             y="538">Repository</tspan></text>
+      </g>
+    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 170,418 c 0,0 0,0 100,-140 260,310 260,310 260,310"
+       id="path3979" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 380,218 C 640,208 640,208 640,208"
+       id="path3981" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 820,408 C 760,268 760,268 760,268 170,418 170,418 170,418"
+       id="path3985" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 530,588 C 710,468 720,468 720,468"
+       id="path3987" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Mentone;-inkscape-font-specification:Mentone"
+       x="430"
+       y="398"
+       id="text3678"><tspan
+         sodipodi:role="line"
+         x="430"
+         y="398"
+         id="tspan3682"
+         style="font-size:28px">Allows for offline work</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Mentone;-inkscape-font-specification:Mentone"
+       x="700"
+       y="618"
+       id="text3678-1"><tspan
+         sodipodi:role="line"
+         x="700"
+         y="618"
+         id="tspan3682-5"
+         style="font-size:28px">Made for branching,</tspan><tspan
+         sodipodi:role="line"
+         x="700"
+         y="653"
+         id="tspan2908"
+         style="font-size:28px">Really good </tspan><tspan
+         sodipodi:role="line"
+         x="700"
+         y="688"
+         id="tspan2906"
+         style="font-size:28px">at merging</tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot2910"
+       style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:Mentone;font-style:normal;font-weight:normal;font-size:40px;-inkscape-font-specification:Mentone"><flowRegion
+         id="flowRegion2912"><rect
+           id="rect2914"
+           width="161"
+           height="71"
+           x="755"
+           y="634" /></flowRegion><flowPara
+         id="flowPara2916"></flowPara></flowRoot>    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Mentone;-inkscape-font-specification:Mentone"
+       x="83"
+       y="617"
+       id="text3678-6"><tspan
+         sodipodi:role="line"
+         id="tspan3680-2"
+         x="83"
+         y="617"
+         style="font-size:28px">All repositories</tspan><tspan
+         sodipodi:role="line"
+         x="83"
+         y="652"
+         id="tspan3682-58"><tspan
+           style="font-size:28px"
+           id="tspan3684-6">are equal</tspan></tspan></text>
+  </g>
+</svg>

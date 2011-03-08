@@ -1,15 +1,14 @@
 !SLIDE center
 # History #
 
-![history](a_few_years_back.png)
+![history](a_few_years_back.svg)
 
 !SLIDE center
 # Now #
 
-![now](now.png)
+![now](now.svg)
 
 !SLIDE center
 #Projects Using Git#
 
-![Projects using git](projects_using_git.png)
-
+![Projects using git](projects_using_git.svg)
