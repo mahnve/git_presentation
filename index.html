@@ -85,17 +85,20 @@
 </div><div class="slide" data-transition="none"><div class="content center" ref="history/history/1">
 <h1>History</h1>
 
-<p><img src="./file/history/a_few_years_back.png" width="700" height="386" alt="history"/></p>
+<p><img src="./file/history/a_few_years_back.svg" width="810" height="486" alt="history"/></p>
 </div>
-</div><div class="slide" data-transition="none"><div class="content center" ref="history/history/2">
+</div><div class="slide" data-transition="none"><div class="content" ref="history/history/2">
 <h1>Now</h1>
 
-<p><img src="./file/history/now.png" width="700" height="385" alt="now"/></p>
+<p><img src="./file/history/now.svg" width="810" height="486" alt="now"/></p>
 </div>
 </div><div class="slide" data-transition="none"><div class="content center" ref="history/history/3">
 <h1>Projects Using Git</h1>
 
-<p><img src="./file/history/projects_using_git.png" width="964" height="450" alt="Projects using git"/></p>
+<p><img src="./file/history/projects_using_git.svg" width="970" height="453" alt="Projects using git"/></p>
+</div>
+</div><div class="slide" data-transition="none"><div class="content" ref="history/history/4">
+<h1><a href="http://www.fogcreek.com/blog/post/The-State-of-Version-Control.aspx">The State of Version Control</a></h1>
 </div>
 </div><div class="slide" data-transition="none"><div class="content full-page" ref="workflow/workflow/1">
 <p><img src="./file/workflow/centralized_vcs.svg" width="1024" height="768" alt="Standard VCS workflow"/></p>
@@ -106,8 +109,130 @@
 </div><div class="slide" data-transition="none"><div class="content full-page" ref="workflow/workflow/3">
 <p><img src="./file/workflow/git_workflow.svg" width="1024" height="768" alt="Standard VCS workflow"/></p>
 </div>
+</div><div class="slide" data-transition="none"><div class="content full-page" ref="internals/internals/1">
+<p><img src="./file/internals/object_model.svg" width="1024" height="768" alt="Git object model"/></p>
+</div>
+</div><div class="slide" data-transition="none"><div class="content full-page" ref="internals/internals/2">
+<p><img src="./file/internals/references.svg" width="1024" height="768" alt="Git object model with references"/></p>
+</div>
+</div><div class="slide" data-transition="none"><div class="content commandline incremental" ref="walkthrough/01_basics/1">
+<pre><code><code class="command">$ cat ~/.gitconfig</code><code class="result">
+
+[user]
+name = Marcus Ahnve
+email = marcus@ahnve.com
+[color]
+        diff = auto
+        status = auto
+        branch = auto
+        ui = true
+[apply]
+        whitespace = nowarn
+[alias]
+        ci = commit -a
+        co = checkout
+        st = status
+        br = branch
+[github]
+        user = mahnve
+        token = &lt;secret&gt;
+[merge]
+        tool = vimdiff3
+[mergetool "gvimdiff3"]
+        cmd = gvim -f -d -c \"wincmd J\" \"$MERGED\" \"$LOCAL\" \"$BASE\" \"$REMOTE\"
+[mergetool "vimdiff3"]
+        cmd = vim -f -d -c \"wincmd J\" \"$MERGED\" \"$LOCAL\" \"$BASE\" \"$REMOTE\"
+[core]
+        autocrlf = input
+        safecrlf = true
+</code></code></pre>
+</div>
+</div><div class="slide" data-transition="none"><div class="content commandline incremental" ref="walkthrough/01_basics/2">
+<pre><code><code class="command">$ git config --global -l</code><code class="result">
+
+user.name=Marcus Ahnve
+user.email=marcus@ahnve.com
+color.diff=auto
+color.status=auto
+color.branch=auto
+color.ui=true
+apply.whitespace=nowarn
+alias.ci=commit -a
+alias.co=checkout
+alias.st=status
+alias.br=branch
+github.user=mahnve
+github.token=&lt;secret&gt;
+merge.tool=vimdiff3
+mergetool.gvimdiff3.cmd=gvim -f -d -c "wincmd J" "$MERGED" "$LOCAL" "$BASE" "$REMOTE"
+mergetool.vimdiff3.cmd=vim -f -d -c "wincmd J" "$MERGED" "$LOCAL" "$BASE" "$REMOTE"
+core.autocrlf=input
+core.safecrlf=true
+</code></code></pre>
+</div>
+</div><div class="slide" data-transition="none"><div class="content commandline" ref="walkthrough/01_basics/3">
+<pre><code><code class="command">$ git config --global --add user.name 'Marcus Ahnve'</code><code class="result">
+</code></code></pre>
+</div>
+</div><div class="slide" data-transition="none"><div class="content commandline incremental" ref="walkthrough/01_basics/4">
+<pre><code><code class="command">$ git init</code><code class="result">
+
+Initialized empty Git repository in /home/mahnve/src/test/.git/
+
+</code><code class="command">$ touch tmp.txt</code><code class="result">
+
+</code><code class="command">$ git status</code><code class="result">
+
+# On branch master
+#
+# Initial commit
+#
+# Untracked files:
+#   (use "git add &lt;file&gt;..." to include in what will be committed)
+#
+#   tmp.txt
+</code></code></pre>
+</div>
+</div><div class="slide" data-transition="none"><div class="content commandline incremental" ref="walkthrough/01_basics/5">
+<pre><code><code class="command">$ git add .</code><code class="result">
+
+</code><code class="command">$ git status</code><code class="result">
+
+# On branch master
+#
+# Initial commit
+#
+# Changes to be committed:
+#   (use "git rm --cached &lt;file&gt;..." to unstage)
+#
+#   new file:   tmp.txt
+#
+</code></code></pre>
+</div>
+</div><div class="slide" data-transition="none"><div class="content commandline incremental" ref="walkthrough/01_basics/6">
+<pre><code><code class="command">$ git commit -m 'initial commit'                                                                                                                                                              &#x2500;&#x2500;master(Tue,Mar08)&#x2500;&#x2518;</code><code class="result">
+
+[master (root-commit) 21a58a0] initial commit
+0 files changed, 0 insertions(+), 0 deletions(-)
+create mode 100644 tmp.txt
+</code></code></pre>
+</div>
+</div><div class="slide" data-transition="none"><div class="content commandline incremental" ref="walkthrough/01_basics/7">
+<pre><code><code class="command">$ git log                                                                                                                                                                                     &#x2500;&#x2500;master(Tue,Mar08)&#x2500;&#x2518;</code><code class="result">
+
+commit 21a58a0d71b1e2b2da47999a43b2bffacfc354af
+Author: Marcus Ahnve &lt;marcus@ahnve.com&gt;
+Date:   Tue Mar 8 22:59:42 2011 +0100
+</code></code></pre>
+</div>
+</div><div class="slide" data-transition="none"><div class="content commandline incremental" ref="walkthrough/01_basics/8">
+<pre><code><code class="command">$ echo foo &gt; tmp.txt</code><code class="result">
+
+</code><code class="command">$ git status</code><code class="result">
+</code></code></pre>
+</div>
 </div><div class="slide" data-transition="none"><div class="content full-page" ref="roundup/roundup">
-<p><img src="./file/roundup/we_shape_our_tools.png" width="1024" height="768" alt="Marshall McLuhan"/></p>
+<p><img src="./file/roundup/we_shape_our_tools.svg" width="1024" height="768" alt="Marshall McLuhan"/></p>
 </div>
 </div>
 </div>
