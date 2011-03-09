@@ -11,6 +11,9 @@ Valtech AB
 <marcus.ahnve@valtech.se>  
 [@mahnve](http://www.twitter.com/mahnve)  
 
+
+![Valtech](valtech_logo.jpg)
+
 (Images in presentation are SVG's, so for now this presentation requires Firefox 4)
 
 !SLIDE bullets

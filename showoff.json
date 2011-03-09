@@ -8,9 +8,9 @@
     {"section":"branching"},
     {"section":"time_machine"},
     {"section":"remotes"},
+    {"section":"bisect"},
     {"section":"tools"},
     {"section":"roundup"},
-    {"section":"tools"},
     {"section":"thanks"}
   ]
 }
