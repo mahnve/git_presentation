@@ -1,3 +1,3 @@
 !SLIDE full-page
 
-![Marshall McLuhan]( we_shape_our_tools.png )
+![Marshall McLuhan]( we_shape_our_tools.svg )

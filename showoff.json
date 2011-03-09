@@ -4,6 +4,8 @@
   {"section":"about_me"},
   {"section":"history"},
   {"section":"workflow"},
+  {"section":"internals"},
+  {"section":"walkthrough"},
   {"section":"roundup"},
   {"section":"thanks"}
   ]

@@ -3,7 +3,7 @@
 
 ![history](a_few_years_back.svg)
 
-!SLIDE center
+!SLIDE 
 # Now #
 
 ![now](now.svg)
@@ -12,3 +12,8 @@
 #Projects Using Git#
 
 ![Projects using git](projects_using_git.svg)
+
+!SLIDE
+
+# [The State of Version Control](http://www.fogcreek.com/blog/post/The-State-of-Version-Control.aspx) #
+
