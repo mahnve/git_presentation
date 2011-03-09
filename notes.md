@@ -51,30 +51,7 @@ Size
 After converting to Git, a Rails checkout in is 13M. A single checkout is 9M.
 Rails svn repo was 115 M.
 
-Workflow
---------
 
-Set up profile
-| ändra filen
-git status
-| vad hände vi måste lägga till den igen?
-git commit -a -m 'another commit' 
-git log Workflow overview 
-Logging
-git log --stat
-git log --graph
-git log --pretty=oneline
-Branching 
-| git is all about branching so lets start early
-Feature branches
-| [image: feature_branches.svg]
-git branch something_new 
-git checkout something_new 
-git checkout -b something_else 
-git branch
-| Shows branches
-vim test.txt
-| edit some text
 git commit -a -m 'minor edit' git checkout master vim test.txt
 | Whoah! Where did the text go?
 git log git merge something_else git log git branch -d something_else

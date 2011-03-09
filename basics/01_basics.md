@@ -126,7 +126,7 @@
 
 # Change a file
 
-    $ echo foo >| tmp.txt
+    $ echo foo >> tmp.txt
 
     $ git status
 
@@ -137,6 +137,8 @@
     #
     #	modified:   tmp.txt
     #
+
+    no changes added to commit (use "git add" and/or "git commit -a")
 
 !SLIDE commandline incremental
 
