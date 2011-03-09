@@ -1,14 +1,3 @@
-Remote branches
-| git can follow remote branches, will not get into details
-| ssh, http,  https or git
-| a clone is a complete copy
-GitHub
-
-gitk
-git co -b 'a branch'
-gitk
-
-
 git bisect
 git bisect start
 git bisect bad <rev>
