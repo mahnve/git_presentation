@@ -66,28 +66,40 @@
 </div>
 
 <div id="slides" class="offscreen" style="display:none;">
-<div class="slide" data-transition="none"><div class="content" ref="title/title">
+<div class="slide" data-transition="none"><div class="content center" ref="title/title/1">
 <h1>Git</h1>
 
 <h2>Version Control You've Only Dreamt Of</h2>
+
+<p>Marcus Ahnve<br/>
+Valtech AB <br/>
+<a href="mailto:marcus.ahnve@valtech.se">marcus.ahnve@valtech.se</a><br/>
+<a href="http://www.twitter.com/mahnve">@mahnve</a></p>
+
+<p><img src="./file/title/valtech_logo.jpg" width="568" height="143" alt="Valtech"/></p>
+
+<p>(Images in presentation are SVG's, so for now this presentation requires Firefox 4)</p>
 </div>
-</div><div class="slide" data-transition="none"><div class="content bullets" ref="about_me/about_me">
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="title/title/2">
 <h1>About me</h1>
 
 <ul>
-<li>Software Developer @ Valtech Sthlm</li>
-<li>Polyglot programmer</li>
-<li>Old school agile loudmouth</li>
-<li>Father of two, husband of one</li>
+<li>Software Developer</li>
+<li>Polyglot Programmer</li>
+<li>Used Mercurial fulltime for 15 months</li>
+<li>Used Git since 2008, full time for a year</li>
 </ul>
 
+</div>
+</div><div class="slide" data-transition="none"><div class="content" ref="title/title/3">
+<h1>Q: What are you using today?</h1>
 </div>
 </div><div class="slide" data-transition="none"><div class="content center" ref="history/history/1">
 <h1>History</h1>
 
 <p><img src="./file/history/a_few_years_back.svg" width="810" height="486" alt="history"/></p>
 </div>
-</div><div class="slide" data-transition="none"><div class="content" ref="history/history/2">
+</div><div class="slide" data-transition="none"><div class="content center" ref="history/history/2">
 <h1>Now</h1>
 
 <p><img src="./file/history/now.svg" width="810" height="486" alt="now"/></p>
@@ -103,10 +115,21 @@
 </div><div class="slide" data-transition="none"><div class="content full-page" ref="workflow/workflow/1">
 <p><img src="./file/workflow/centralized_vcs.svg" width="1024" height="768" alt="Standard VCS workflow"/></p>
 </div>
-</div><div class="slide" data-transition="none"><div class="content full-page" ref="workflow/workflow/2">
-<p><img src="./file/workflow/decentralized_vcs.svg" width="1024" height="768" alt="DVCS workflow"/></p>
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="workflow/workflow/2">
+<h1>Problem with Centralized Version Control</h1>
+
+<ul>
+<li>Offline - No such thing</li>
+<li>Branching - Big things</li>
+<li>Small commits - implemented in IDE's instead</li>
+<li>Merging - Normally suck at branching</li>
+</ul>
+
 </div>
 </div><div class="slide" data-transition="none"><div class="content full-page" ref="workflow/workflow/3">
+<p><img src="./file/workflow/decentralized_vcs.svg" width="1024" height="768" alt="DVCS workflow"/></p>
+</div>
+</div><div class="slide" data-transition="none"><div class="content full-page" ref="workflow/workflow/4">
 <p><img src="./file/workflow/git_workflow.svg" width="1024" height="768" alt="Standard VCS workflow"/></p>
 </div>
 </div><div class="slide" data-transition="none"><div class="content full-page" ref="internals/internals/1">
@@ -115,7 +138,19 @@
 </div><div class="slide" data-transition="none"><div class="content full-page" ref="internals/internals/2">
 <p><img src="./file/internals/references.svg" width="1024" height="768" alt="Git object model with references"/></p>
 </div>
-</div><div class="slide" data-transition="none"><div class="content commandline incremental" ref="walkthrough/01_basics/1">
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="internals/internals/3">
+<h1>Won't it be awfully big?</h1>
+
+<ul>
+<li>Ruby on Rails Subversion repo was 115M</li>
+<li>A checkout was 9M</li>
+<li>After converting, the a Git repo was 13M</li>
+</ul>
+
+</div>
+</div><div class="slide" data-transition="none"><div class="content commandline incremental" ref="basics/01_basics/1">
+<h1>Settings</h1>
+
 <pre><code><code class="command">$ cat ~/.gitconfig</code><code class="result">
 
 [user]
@@ -147,7 +182,9 @@ email = marcus@ahnve.com
         safecrlf = true
 </code></code></pre>
 </div>
-</div><div class="slide" data-transition="none"><div class="content commandline incremental" ref="walkthrough/01_basics/2">
+</div><div class="slide" data-transition="none"><div class="content commandline incremental" ref="basics/01_basics/2">
+<h1>List settings with git command</h1>
+
 <pre><code><code class="command">$ git config --global -l</code><code class="result">
 
 user.name=Marcus Ahnve
@@ -170,11 +207,15 @@ core.autocrlf=input
 core.safecrlf=true
 </code></code></pre>
 </div>
-</div><div class="slide" data-transition="none"><div class="content commandline" ref="walkthrough/01_basics/3">
+</div><div class="slide" data-transition="none"><div class="content commandline incremental" ref="basics/01_basics/3">
+<h1>Change settings with git command</h1>
+
 <pre><code><code class="command">$ git config --global --add user.name 'Marcus Ahnve'</code><code class="result">
 </code></code></pre>
 </div>
-</div><div class="slide" data-transition="none"><div class="content commandline incremental" ref="walkthrough/01_basics/4">
+</div><div class="slide" data-transition="none"><div class="content commandline incremental" ref="basics/01_basics/4">
+<h1>Make a repository</h1>
+
 <pre><code><code class="command">$ git init</code><code class="result">
 
 Initialized empty Git repository in /home/mahnve/src/test/.git/
@@ -193,7 +234,9 @@ Initialized empty Git repository in /home/mahnve/src/test/.git/
 #   tmp.txt
 </code></code></pre>
 </div>
-</div><div class="slide" data-transition="none"><div class="content commandline incremental" ref="walkthrough/01_basics/5">
+</div><div class="slide" data-transition="none"><div class="content commandline incremental" ref="basics/01_basics/5">
+<h1>Add files</h1>
+
 <pre><code><code class="command">$ git add .</code><code class="result">
 
 </code><code class="command">$ git status</code><code class="result">
@@ -209,7 +252,9 @@ Initialized empty Git repository in /home/mahnve/src/test/.git/
 #
 </code></code></pre>
 </div>
-</div><div class="slide" data-transition="none"><div class="content commandline incremental" ref="walkthrough/01_basics/6">
+</div><div class="slide" data-transition="none"><div class="content commandline incremental" ref="basics/01_basics/6">
+<h1>Commit changes</h1>
+
 <pre><code><code class="command">$ git commit -m 'initial commit'                                                                                                                                                              &#x2500;&#x2500;master(Tue,Mar08)&#x2500;&#x2518;</code><code class="result">
 
 [master (root-commit) 21a58a0] initial commit
@@ -217,7 +262,9 @@ Initialized empty Git repository in /home/mahnve/src/test/.git/
 create mode 100644 tmp.txt
 </code></code></pre>
 </div>
-</div><div class="slide" data-transition="none"><div class="content commandline incremental" ref="walkthrough/01_basics/7">
+</div><div class="slide" data-transition="none"><div class="content commandline incremental" ref="basics/01_basics/7">
+<h1>Logs</h1>
+
 <pre><code><code class="command">$ git log                                                                                                                                                                                     &#x2500;&#x2500;master(Tue,Mar08)&#x2500;&#x2518;</code><code class="result">
 
 commit 21a58a0d71b1e2b2da47999a43b2bffacfc354af
@@ -225,14 +272,421 @@ Author: Marcus Ahnve &lt;marcus@ahnve.com&gt;
 Date:   Tue Mar 8 22:59:42 2011 +0100
 </code></code></pre>
 </div>
-</div><div class="slide" data-transition="none"><div class="content commandline incremental" ref="walkthrough/01_basics/8">
-<pre><code><code class="command">$ echo foo &gt; tmp.txt</code><code class="result">
+</div><div class="slide" data-transition="none"><div class="content commandline incremental" ref="basics/01_basics/8">
+<h1>Change a file</h1>
+
+<pre><code><code class="command">$ echo foo &gt;&gt; tmp.txt</code><code class="result">
 
 </code><code class="command">$ git status</code><code class="result">
+
+# On branch master
+# Changes not staged for commit:
+#   (use "git add &lt;file&gt;..." to update what will be committed)
+#   (use "git checkout -- &lt;file&gt;..." to discard changes in working directory)
+#
+#   modified:   tmp.txt
+#
+
+no changes added to commit (use "git add" and/or "git commit -a")
 </code></code></pre>
+</div>
+</div><div class="slide" data-transition="none"><div class="content commandline incremental" ref="basics/01_basics/9">
+<h1>Add and commit again</h1>
+
+<pre><code><code class="command">$  git commit -am 'change'</code><code class="result">
+
+[master d9bc3ef] change
+1 files changed, 1 insertions(+), 0 deletions(-)
+</code></code></pre>
+</div>
+</div><div class="slide" data-transition="none"><div class="content commandline incremental" ref="basics/01_basics/10">
+<h1>Detailed logs</h1>
+
+<pre><code><code class="command">$ git log --stat</code><code class="result">
+
+commit d9bc3ef1d51797517cc0bcc647cdd2e34d63ad3a
+Author: Marcus Ahnve &lt;marcus@ahnve.com&gt;
+Date:   Wed Mar 9 10:08:15 2011 +0100
+
+    change
+
+  tmp.txt |    1 +
+  1 files changed, 1 insertions(+), 0 deletions(-)
+
+commit 21a58a0d71b1e2b2da47999a43b2bffacfc354af
+Author: Marcus Ahnve &lt;marcus@ahnve.com&gt;
+Date:   Tue Mar 8 22:59:42 2011 +0100
+
+    initial commit
+
+0 files changed, 0 insertions(+), 0 deletions(-)
+</code></code></pre>
+</div>
+</div><div class="slide" data-transition="none"><div class="content commandline incremental" ref="basics/01_basics/11">
+<h1>Logs with graphs</h1>
+
+<pre><code><code class="command">$ git log --graph </code><code class="result">
+
+* commit d9bc3ef1d51797517cc0bcc647cdd2e34d63ad3a
+| Author: Marcus Ahnve &lt;marcus@ahnve.com&gt;
+| Date:   Wed Mar 9 10:08:15 2011 +0100
+| 
+|     change
+|  
+* commit 21a58a0d71b1e2b2da47999a43b2bffacfc354af
+  Author: Marcus Ahnve &lt;marcus@ahnve.com&gt;
+  Date:   Tue Mar 8 22:59:42 2011 +0100
+
+      initial commit
+</code></code></pre>
+</div>
+</div><div class="slide" data-transition="none"><div class="content commandline incremental" ref="basics/01_basics/12">
+<h1>Short logs</h1>
+
+<pre><code><code class="command">$ git log --pretty=oneline</code><code class="result">
+
+d9bc3ef1d51797517cc0bcc647cdd2e34d63ad3a change
+21a58a0d71b1e2b2da47999a43b2bffacfc354af initial commit
+</code></code></pre>
+</div>
+</div><div class="slide" data-transition="none"><div class="content commandline incremental" ref="branching/01_branching/1">
+<h1>Create a branch</h1>
+
+<pre><code><code class="command">$ git branch new_branch</code><code class="result">
+
+</code><code class="command">$ git checkout new_branch </code><code class="result">
+
+Switched to branch 'new_branch'
+</code></code></pre>
+</div>
+</div><div class="slide" data-transition="none"><div class="content commandline incremental" ref="branching/01_branching/2">
+<h1>Create and check out  branch</h1>
+
+<pre><code><code class="command">$ git checkout -b another_branch</code><code class="result">
+
+Switched to a new branch 'another_branch'
+</code></code></pre>
+</div>
+</div><div class="slide" data-transition="none"><div class="content commandline incremental" ref="branching/01_branching/3">
+<h1>List branches</h1>
+
+<pre><code><code class="command">$ git branch</code><code class="result">
+
+* another_branch
+master
+new_branch
+</code></code></pre>
+</div>
+</div><div class="slide" data-transition="none"><div class="content commandline incremental" ref="branching/01_branching/4">
+<h1>Edit file in branch</h1>
+
+<pre><code><code class="command">$ echo minor edit &gt;&gt; tmp.txt</code><code class="result">
+
+</code><code class="command">$ cat tmp.txt</code><code class="result">
+
+foo
+minor edit
+
+</code><code class="command">$ git commit -am 'minor edit'</code><code class="result">
+
+[master c5c23b1] minor edit
+1 files changed, 1 insertions(+), 1 deletions(-)
+
+</code><code class="command">$ git checkout master</code><code class="result">
+
+Switched to branch 'master'
+
+</code><code class="command">$ cat tmp.txt</code><code class="result">
+
+foo
+</code></code></pre>
+</div>
+</div><div class="slide" data-transition="none"><div class="content commandline incremental" ref="branching/01_branching/5">
+<h1>Edit file on master branch</h1>
+
+<pre><code><code class="command">$  echo another edit &gt;&gt; tmp.txt</code><code class="result">
+
+</code><code class="command">$  cat tmp.txt</code><code class="result">
+
+foo
+another edit
+
+</code><code class="command">$ git commit -am 'another edit'</code><code class="result">
+
+[master 40fd970] another edit
+1 files changed, 1 insertions(+), 0 deletions(-)
+
+</code><code class="command">$ git log --graph --all</code><code class="result">
+
+* commit 40fd970ef0563410d14f4c8e3b8182f1c5c096dc
+| Author: Marcus Ahnve &lt;marcus@ahnve.com&gt;
+| Date:   Wed Mar 9 11:58:01 2011 +0100
+| 
+|     another edit
+|    
+| * commit 4e2bf677f395aca1fa49ddbdcd14c9a6c3616dff
+|/  Author: Marcus Ahnve &lt;marcus@ahnve.com&gt;
+|   Date:   Wed Mar 9 11:47:13 2011 +0100
+|   
+|       minor edit
+|  
+* commit 2a728d827291980c0182f4bdc41b53b51c99ee9c
+| Author: Marcus Ahnve &lt;marcus@ahnve.com&gt;
+| Date:   Wed Mar 9 11:41:49 2011 +0100
+| 
+|     change
+|  
+* commit 21a58a0d71b1e2b2da47999a43b2bffacfc354af
+  Author: Marcus Ahnve &lt;marcus@ahnve.com&gt;
+  Date:   Tue Mar 8 22:59:42 2011 +0100
+
+      initial commit
+</code></code></pre>
+</div>
+</div><div class="slide" data-transition="none"><div class="content full-page" ref="branching/01_branching/6">
+<p><img src="./file/branching/merge.svg" width="1024" height="768" alt="Merging"/></p>
+</div>
+</div><div class="slide" data-transition="none"><div class="content commandline incremental" ref="branching/01_branching/7">
+<h1>Merging</h1>
+
+<pre><code><code class="command">$ git merge another_branch</code><code class="result">
+
+Auto-merging tmp.txt
+CONFLICT (content): Merge conflict in tmp.txt
+Automatic merge failed; fix conflicts and then commit the result.
+
+</code><code class="command">$ cat tmp.txt</code><code class="result">
+
+foo
+another edit
+minor edit
+
+</code><code class="command">$ git add .</code><code class="result">
+
+</code><code class="command">$ git commit -m 'manual merge'</code><code class="result">
+
+[master 1f55c18] manual merge
+</code></code></pre>
+</div>
+</div><div class="slide" data-transition="none"><div class="content full-page" ref="branching/01_branching/8">
+<p><img src="./file/branching/rebase.svg" width="1024" height="768" alt="Rebasing"/></p>
+</div>
+</div><div class="slide" data-transition="none"><div class="content commandline incremental" ref="branching/01_branching/9">
+<h1>Rebasing</h1>
+
+<pre><code><code class="command">$ git co another_branch</code><code class="result">
+
+Switched to branch 'another_branch'
+
+</code><code class="command">$ git rebase master</code><code class="result">
+
+First, rewinding head to replay your work on top of it...
+Applying: minor edit
+Using index info to reconstruct a base tree...
+Falling back to patching base and 3-way merge...
+Auto-merging tmp.txt
+CONFLICT (content): Merge conflict in tmp.txt
+Failed to merge in the changes.
+Patch failed at 0001 minor edit
+
+When you have resolved this problem run "git rebase --continue".
+If you would prefer to skip this patch, instead run "git rebase --skip".
+To restore the original branch and stop rebasing run "git rebase --abort".
+</code></code></pre>
+</div>
+</div><div class="slide" data-transition="none"><div class="content commandline incremental" ref="branching/01_branching/10">
+<h1>Rebase conflicts</h1>
+
+<pre><code><code class="command">$ git add .</code><code class="result">
+
+</code><code class="command">$ git rebase --continue</code><code class="result">
+
+Applying: minor edit
+
+</code><code class="command">$ git checkout master</code><code class="result">
+
+Switched to branch 'master'
+
+</code><code class="command">$ git merge another_branch</code><code class="result">
+
+Updating 40fd970..f6e5616
+Fast-forward
+ tmp.txt |    1 +
+ 1 files changed, 1 insertions(+), 0 deletions(-)
+</code></code></pre>
+</div>
+</div><div class="slide" data-transition="none"><div class="content commandline incremental" ref="branching/01_branching/11">
+<h1>Deleting branches</h1>
+
+<pre><code><code class="command">$ git branch -[d|D] another_branch</code><code class="result">
+
+Deleted branch another_branch (was f6e5616).
+</code></code></pre>
+</div>
+</div><div class="slide" data-transition="none"><div class="content commandline incremental" ref="branching/02_stashing">
+<h1>Stashing</h1>
+
+<pre><code><code class="command">$ echo temp change &gt;&gt; tmp.txt    </code><code class="result">
+
+</code><code class="command">$ git stash </code><code class="result">
+
+Saved working directory and index state WIP on master: 40fd970 another edit
+HEAD is now at 40fd970 another edit
+
+</code><code class="command">$ git status</code><code class="result">
+
+# On branch master
+nothing to commit (working directory clean)
+
+</code><code class="command">$ git stash pop</code><code class="result">
+
+# On branch master
+# Changes not staged for commit:
+#   (use "git add &lt;file&gt;..." to update what will be committed)
+#   (use "git checkout -- &lt;file&gt;..." to discard changes in working directory)
+#
+#   modified:   tmp.txt
+#
+no changes added to commit (use "git add" and/or "git commit -a")
+Dropped refs/stash@{0} (254470f2880fce9f95df249a15cd29d3a7c5f863)
+</code></code></pre>
+</div>
+</div><div class="slide" data-transition="none"><div class="content commandline incremental" ref="time_machine/01_time_machine/1">
+<h1>Git reset</h1>
+
+<pre><code><code class="command">$ cat tmp.txt</code><code class="result">
+
+foo
+another edit
+minor edit
+
+</code><code class="command">$ git reset 40fd97</code><code class="result">
+
+HEAD is now at 40fd970 another edit
+
+</code><code class="command">$ cat tmp.txt</code><code class="result">
+
+foo 
+another edit
+</code></code></pre>
+</div>
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="time_machine/01_time_machine/2">
+<h1>Reset options</h1>
+
+<ul>
+<li>hard - resets index and working tree</li>
+<li>mixed - resets index, leaves working tree</li>
+<li>soft - leaves both index and working tree</li>
+</ul>
+
+</div>
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="remotes/01_remotes">
+<h1>Protocols</h1>
+
+<ul>
+<li>http</li>
+<li>ssh</li>
+<li>git</li>
+</ul>
+
+</div>
+</div><div class="slide" data-transition="none"><div class="content commandline incremental" ref="bisect/01_bisect/1">
+<h1>So You Have An Error</h1>
+
+<pre><code><code class="command">$ git bisect start</code><code class="result">
+
+</code><code class="command">$ git bisect bad</code><code class="result">
+</code></code></pre>
+</div>
+</div><div class="slide" data-transition="none"><div class="content commandline incremental" ref="bisect/01_bisect/2">
+<h1>Find a Good Revision</h1>
+
+<pre><code><code class="command">$ git checkout e8adad403f52c</code><code class="result">
+
+Note: checking out 'e8adad403f52c4'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b new_branch_name
+
+HEAD is now at e8adad4... history and roundup
+</code></code></pre>
+</div>
+</div><div class="slide" data-transition="none"><div class="content commandline incremental" ref="bisect/01_bisect/3">
+<h1>Mark Revisions As Good Or Bad</h1>
+
+<pre><code><code class="command">$ git bisect good</code><code class="result">
+
+Bisecting: 1 revision left to test after this (roughly 1 step)
+[5525ce7f14c667a9b63b17fab700395016db78f4] about and bullets
+
+</code><code class="command">$ git bisect good</code><code class="result">
+
+Bisecting: 0 revisions left to test after this (roughly 0 steps)
+[d9a77ce4e413fae35bff64d072232bbad951a4f1] remotes and tools
+</code></code></pre>
+</div>
+</div><div class="slide" data-transition="none"><div class="content commandline incremental" ref="bisect/01_bisect/4">
+<h1>Mark the Final Revision</h1>
+
+<pre><code><code class="command">$ git bisect bad</code><code class="result">
+
+d9a77ce4e413fae35bff64d072232bbad951a4f1 is the first bad commit
+commit d9a77ce4e413fae35bff64d072232bbad951a4f1
+Author: Marcus Ahnve &lt;marcus@ahnve.com&gt;
+Date:   Wed Mar 9 19:44:26 2011 +0100
+
+    remotes and tools
+
+:100644 100644 b777d11f846fb6be51c1ddde1195d0496929c005 f6a8bb613ab2f51582444a443abe808fdaf2a90b M  notes.md
+:000000 040000 0000000000000000000000000000000000000000 3a05fdf21845da07668d49fbb350f856d3ccd25d A  remotes
+:000000 040000 0000000000000000000000000000000000000000 8e6702d84866839729eb6b734e9db1f591aa7c4e A  tools
+</code></code></pre>
+</div>
+</div><div class="slide" data-transition="none"><div class="content commandline incremental" ref="bisect/01_bisect/5">
+<h1>Finish the Bisecting</h1>
+
+<pre><code><code class="command">$ git bisect reset</code><code class="result">
+
+Previous HEAD position was d9a77ce... remotes and tools
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 1 commit.
+</code></code></pre>
+</div>
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="tools/01_tools/1">
+<h1>Editor Integration</h1>
+
+<ul>
+<li>Eclipse - <a href="http://www.eclipse.org/egit/">EGit</a></li>
+<li>IntelliJ - Out of the box</li>
+<li>Visual Studio - <a href="http://code.google.com/p/gitextensions/">Git Extensions</a></li>
+</ul>
+
+</div>
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="tools/01_tools/2">
+<h1>Other tools</h1>
+
+<ul>
+<li>gitk</li>
+<li><a href="http://gitx.frim.nl/">GitX</a></li>
+<li>gitg</li>
+<li><a href="http://code.google.com/p/tortoisegit/">TortoiseGit</a></li>
+<li><a href="http://code.google.com/p/msysgit/">msysgit</a></li>
+</ul>
+
 </div>
 </div><div class="slide" data-transition="none"><div class="content full-page" ref="roundup/roundup">
 <p><img src="./file/roundup/we_shape_our_tools.svg" width="1024" height="768" alt="Marshall McLuhan"/></p>
+</div>
+</div><div class="slide" data-transition="none"><div class="content center" ref="thanks/thanks">
+<h1>Thank You!</h1>
+
+<p><img src="./file/thanks/valtech_logo.jpg" width="568" height="143" alt="Valtech"/></p>
 </div>
 </div>
 </div>
