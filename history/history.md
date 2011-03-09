@@ -3,7 +3,7 @@
 
 ![history](a_few_years_back.svg)
 
-!SLIDE 
+!SLIDE  center
 # Now #
 
 ![now](now.svg)

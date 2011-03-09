@@ -5,7 +5,8 @@
   {"section":"history"},
   {"section":"workflow"},
   {"section":"internals"},
-  {"section":"walkthrough"},
+  {"section":"basics"},
+  {"section":"branching"},
   {"section":"roundup"},
   {"section":"thanks"}
   ]
