@@ -17,5 +17,6 @@
   color: blue;
 }
 
-.content img {
+.content code {
+  font-size: 24px;
 }

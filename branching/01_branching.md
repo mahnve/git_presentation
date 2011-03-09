@@ -24,7 +24,7 @@
     new_branch
 
 !SLIDE commandline incremental 
-# Edit file in branch
+# Edit file in branch #
 
     $ echo minor edit >> tmp.txt
 
@@ -47,7 +47,7 @@
     foo
 
 !SLIDE commandline incremental
-# Edit file on master branch
+# Edit file on master branch #
   
     $  echo another edit >> tmp.txt
 
@@ -91,11 +91,7 @@
 
 ![Merging](merge.svg)
 
-!SLIDE full-page
-
-![Rebasing](rebase.svg)
-
-!SLIDE
+!SLIDE commandline incremental
 # Merging
 
     $ git merge another_branch
@@ -112,11 +108,61 @@
 
     $ git add .
 
-    $ 
+    $ git commit -m 'manual merge'
 
+    [master 1f55c18] manual merge
 
+!SLIDE full-page
 
+![Rebasing](rebase.svg)
 
+!SLIDE commandline incremental
+# Rebasing
 
+    $ git co another_branch
 
+    Switched to branch 'another_branch'
 
+    $ git rebase master
+
+    First, rewinding head to replay your work on top of it...
+    Applying: minor edit
+    Using index info to reconstruct a base tree...
+    Falling back to patching base and 3-way merge...
+    Auto-merging tmp.txt
+    CONFLICT (content): Merge conflict in tmp.txt
+    Failed to merge in the changes.
+    Patch failed at 0001 minor edit
+
+    When you have resolved this problem run "git rebase --continue".
+    If you would prefer to skip this patch, instead run "git rebase --skip".
+    To restore the original branch and stop rebasing run "git rebase --abort".
+
+!SLIDE commandline incremental
+
+# Rebase conflicts
+
+    $ git add .
+
+    $ git rebase --continue
+    
+    Applying: minor edit
+
+    $ git checkout master
+
+    Switched to branch 'master'
+
+    $ git merge another_branch
+
+    Updating 40fd970..f6e5616
+    Fast-forward
+     tmp.txt |    1 +
+     1 files changed, 1 insertions(+), 0 deletions(-)
+
+!SLIDE commandline incremental
+
+# Deleting branches
+
+    $ git branch -[d|D] another_branch
+
+    Deleted branch another_branch (was f6e5616).

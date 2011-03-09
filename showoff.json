@@ -1,13 +1,1 @@
-{"name":"Git",
-"sections":[
-  {"section":"title"},
-  {"section":"about_me"},
-  {"section":"history"},
-  {"section":"workflow"},
-  {"section":"internals"},
-  {"section":"basics"},
-  {"section":"branching"},
-  {"section":"roundup"},
-  {"section":"thanks"}
-  ]
-}
+{"name":"Git","sections":[{"section":"title"},{"section":"about_me"},{"section":"history"},{"section":"workflow"},{"section":"internals"},{"section":"basics"},{"section":"branching"},{"section":"roundup"},{"section":"thanks"}],"section":"time_machine"}
